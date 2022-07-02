@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-image: url("../multimedia/backgroundsky.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navlink {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+.navlist {
+    display: inline-block;
+}
+
+nav {
+    background-color: black;
+    padding: 50px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background: black;
+    padding: 30px;
+    margin: 10px;
+}
+
+.textarea {
+    display: block;
+
+}
+
+.logo {
+    width: 120px;
+}
+
+.footer-flex {
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.creditos_flex {
+    color: white;
+}
+
+.contenido_flex {
+    display: flex;
+}
+
+aside {
+    background-color: #9792a7;
+    padding: 10px;
+}
+
+.contenido {
+    border: 1px solid;
+    background-color: #d9cfea;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    flex-wrap: no-wrap;
+}
+
+.logo_flex {
+    margin-top: 20px;
+}
+
+.textarea {
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width:768px) {
+    body {
+        color: rgb(8, 8, 8);
+    }
+}
+
+/*Aca puse un @media para decirle que cuando se presente un 
+minimo de tamaño de pantalla de 768px, cambie las letras a color negro 
+y si no, que las deje normales*/
+/*                           PARA AGREGAR A GRIDS                             */
+a:hover{
+    background-image:linear-gradient(purple,blue);
+    color:grey;
+}
+.imganimada:hover{
+    transform:scale(1.5, 1.5)
+}
+.reglas{
+    color:red;
+    margin-top:10px;
+}
+.pregunta{
+    margin:10px;
+}
