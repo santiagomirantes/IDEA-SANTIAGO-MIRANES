@@ -1,0 +1,3 @@
+# IDEA-SANTIAGO-MIRANES El proyecto es una idea base de una comunidad orientada hacia los videojuegos. Dentro del index podemos encontrar información general acerca del proyecto, también, ahí adentro se encuentra un menú de navegación para desplazarte por las demás secciones.
+ La sección llamada novedades informa acerca de las noticias recientes referidas a la comunidad. También tenemos la sección "galería" con una extensa variedad de imágenes referidas a la página.
+  Luego, en la sección "acerca de" se encuentra información mas especifica de la comunidad y sus reglas. Por último, en "contactos" se encuentra un formulario con el cual te podrás contactar con el soporte de la página. 
