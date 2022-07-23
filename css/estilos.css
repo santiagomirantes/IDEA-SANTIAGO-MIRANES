@@ -114,7 +114,7 @@ aside {
     height: 300px;
 }
 
-@media (max-width:320px) {
+@media (max-width:480px) {
     .contenido_flex{
         min-height:1px;
         width:100vw;
@@ -136,7 +136,7 @@ aside {
         
     }
     textarea{
-        width:90vw;
+        width:100vw;
     }
     header{
         width:100vw;
@@ -161,7 +161,4 @@ a:hover{
 }
 .pregunta{
     margin:10px;
-}
-.container{
-    color:white;
 }
